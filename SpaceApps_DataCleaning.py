@@ -9,7 +9,7 @@
 get_ipython().system('pip install ttkbootstrap ')
 
 
-# In[1]:
+# In[ ]:
 
 
 from tkinter import *
@@ -22,10 +22,10 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 
 
-# In[2]:
+# In[ ]:
 
 
-df = pd.read_excel(r'C:\Users\sarah\Downloads\Sample_Composition_Data.xls')
+df = pd.read_excel(r'BeASpaceGeologist\Sample_Composition_Data.csv')
 
 
 # In[ ]:
