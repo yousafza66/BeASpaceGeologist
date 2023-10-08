@@ -1,0 +1,45 @@
+Code Resources
+https://www.w3schools.com/python/pandas/pandas_getting_started.asp
+https://www.tutorialspoint.com/how-to-resize-an-image-using-tkinter
+https://www.pythontutorial.net/tkinter/tkinter-grid/
+https://www.geeksforgeeks.org/python-grid-method-in-tkinter/
+https://github.com/asc-csa/
+https://www.geeksforgeeks.org/dropdown-menus-tkinter/
+
+Other Sources
+https://ttkbootstrap.readthedocs.io/en/latest/
+
+Rock Image Resources
+https://www.gemrockauctions.com/learn/a-z-of-gemstones/andesite
+https://geologyscience.com/rocks/igneous-rocks/andesite/
+https://rockhoundresource.com/andesite/
+https://www.gemrockauctions.com/learn/a-z-of-gemstones/andesite
+https://commons.wikimedia.org/wiki/File:Anorthosite_(Ankafotia_Anorthosite_Massif,_Neoproterozoic,_~660_Ma;_Madagascar)_17.jpg
+https://www.sandatlas.org/feldspar/
+https://www.sandatlas.org/basalt/
+https://geologyscience.com/rocks/basalt/
+https://mineralseducationcoalition.org/minerals-database/basalt/
+https://www.martialexcavation.com/produit.php?groupe=pierre-terre-sable&produit=noire&lang=en
+https://www.bathpotters.co.uk/standard-borax-frit/p3068
+https://www.dakotamatrix.com/products/1939/coulsonite
+https://www.mindat.org/min-52479.html
+https://www.gemrockauctions.com/learn/a-z-of-gemstones/andesite
+https://geologyscience.com/rocks/igneous-rocks/andesite/
+https://rockhoundresource.com/andesite/
+https://commons.wikimedia.org/wiki/File:Anorthosite_%28Ankafotia_Anorthosite_Massif,_Neoproterozoic,_~660_Ma;_Madagascar%29_17.jpg
+https://www.sandatlas.org/author/Siim/
+
+https://fr.wikipedia.org/wiki/Fer
+https://www.indiamart.com/proddetail/flint-clay-2125884930.html
+https://www.geologypage.com/2019/05/granite-rocks.html
+http://www.eastern.net.cn/pd.jsp?id=64
+https://www.boughton.co.uk/products/topsoils/soil-types/
+https://en.wikipedia.org/wiki/Help:Maintenance_template_removal
+https://en.wikipedia.org/wiki/Kaolinite
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sandatlas.org%2Ffeldspar%2F&psig=AOvVaw17NyTmhraQZbfmKPMCyOgF&ust=1696863243144000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKC5oara5oEDFQAAAAAdAAAAABAE
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fmanganese-mine-metal-abhinav-sengupta&psig=AOvVaw1x9qolC28sEThqUY9m0eEX&ust=1696863325956000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMjp3dDa5oEDFQAAAAAdAAAAABAE
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fcrystaldreamsworld.com%2Fproduct%2Fblack-obsidian-crystal-rough%2F&psig=AOvVaw3UBN4LMKQtH-x48ZflwpkE&ust=1696863398375000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKi3ofTa5oEDFQAAAAAdAAAAABAE
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sandatlas.org%2Fgabbro%2F&psig=AOvVaw390ivWXl6Z1ZAoZob2taIt&ust=1696863480403000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCp-pnb5oEDFQAAAAAdAAAAABAZ
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sandatlas.org%2Fpyroxenite%2F&psig=AOvVaw1398cR9w8Nnfrq6WumT6AD&ust=1696863608316000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjsitfb5oEDFQAAAAAdAAAAABAE
+https://www.google.com/url?sa=i&url=https%3A%2F%2Flafabriqueartisanale.ca%2Fboutique%2Fen%2Fred-clay-p317%2F&psig=AOvVaw1usxzo86MUhhKpjPKrVWym&ust=1696863652877000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjB0ezb5oEDFQAAAAAdAAAAABAE
+

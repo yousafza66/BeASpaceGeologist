@@ -31,32 +31,29 @@ df = pd.read_excel(r'C:\Users\sarah\Downloads\Sample_Composition_Data.xls')
 # In[ ]:
 
 
-#Create an instance of tkinter frame
-root = ttk.Window(themename = "solar")
-#root = tk.Tk()
-
+# Create an instance of tkinter frame
+root = ttk.Window(themename = "yeti")
 
 # Adjust size 
 root.geometry( "800x800" )
 
-#Load an image in the script
-img= (Image.open("rockstar.jpg"))
+# Load an image in the script
+img= (Image.open("rockstar.png"))
 
-#Resize the Image using resize method
-resized_image= img.resize((314,185), Image.ANTIALIAS)
+# Resize the image using resize method
+resized_image= img.resize((714,485), Image.ANTIALIAS)
 new_image= ImageTk.PhotoImage(resized_image)
 
 # Change the label text and image
 def show(): 
-    label.config( text = clicked.get() ) #text is the name of the image we want
+    label.configure( text = clicked.get(), font = ("Arial", 20))
     
-    img2=(Image.open(clicked.get() + ".jpg"))
-    
+    img2=(Image.open("rocks/" + clicked.get() + ".jpg"))
     resized_rocks= img2.resize((200,200), Image.ANTIALIAS)
     new_rocks= ImageTk.PhotoImage(resized_rocks)
     
-    label.configure(image=new_rocks)
-    label.image=new_rocks    
+    label_image.configure(image=new_rocks)
+    label_image.image=new_rocks    
     
 #column names
 namesRocks = df.to_numpy()[:, 0]
@@ -65,28 +62,27 @@ namesRocks = namesRocks.tolist()
     
 # Dropdown menu options 
 options = namesRocks
-#root['background'] = 'blue'
  
 # datatype of menu text 
 clicked = StringVar() 
   
 # initial menu text 
-clicked.set( "Select Your Rock" ) 
+clicked.set( "Select Your Rock") 
   
 # Create Dropdown menu 
 drop = OptionMenu( root , clicked , *options ) 
 drop.pack() 
   
 # Create button, it will change label text  and change image
-button = Button( root , text = "Enter" , command = show ).pack() 
+button = Button( root , text = "Enter", font = ("Arial", 10), command = show ).pack() 
 
 # Create Label for rock name
-label = Label( root , text = " ") 
+label = Label( root , text = " ", font = ("Arial", 20)) 
 label.pack() 
 
 # Create a label to display the image
-label= Label(root,image= new_image)
-label.pack()
+label_image = Label(root,image= new_image)
+label_image.pack()
 
 # Execute tkinter
 root.bind("<Return>", show)
@@ -99,21 +95,7 @@ root.mainloop()
 
 
 
-# In[ ]:
-
-
-cols= df.columns
-cols
-
-
-# In[ ]:
-
-
-#column names
-namesRocks = df.to_numpy()[:, 0]
-namesRocks = namesRocks[:]
-namesRocks = namesRocks.tolist()
-
+# EXTRAS BELOW
 
 # In[ ]:
 
@@ -135,18 +117,8 @@ frame.place(anchor='center', relx=0.5, rely=0.5)
 
 # Create an object of tkinter ImageTk
 img = ImageTk.PhotoImage(Image.open("forest.jpg"))
-
-
 win.mainloop()
 
-
-# In[ ]:
-
-
-
-
-
-# EXTRAS BELOW
 
 # In[ ]:
 
