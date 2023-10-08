@@ -1,6 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# Note: Need to run the 'pip 'cmd below once!
+
+# In[ ]:
+
+
+get_ipython().system('pip install ttkbootstrap ')
+
+
 # In[1]:
 
 
@@ -8,19 +16,25 @@ from tkinter import *
 import pandas as pd
 from PIL import Image,ImageTk
 
+# Modifications to GUI interface
+import tkinter as tk
+import ttkbootstrap as ttk
+from ttkbootstrap.constants import *
+
 
 # In[2]:
 
 
 df = pd.read_excel(r'C:\Users\sarah\Downloads\Sample_Composition_Data.xls')
-df
 
 
 # In[ ]:
 
 
 #Create an instance of tkinter frame
-root = Tk()
+root = ttk.Window(themename = "solar")
+#root = tk.Tk()
+
 
 # Adjust size 
 root.geometry( "800x800" )
@@ -67,7 +81,7 @@ drop.pack()
 button = Button( root , text = "Enter" , command = show ).pack() 
 
 # Create Label for rock name
-label = Label( root , text = " " ) 
+label = Label( root , text = " ") 
 label.pack() 
 
 # Create a label to display the image
@@ -123,7 +137,6 @@ frame.place(anchor='center', relx=0.5, rely=0.5)
 img = ImageTk.PhotoImage(Image.open("forest.jpg"))
 
 
-
 win.mainloop()
 
 
@@ -131,8 +144,9 @@ win.mainloop()
 
 
 
-root.mainloop()
 
+
+# EXTRAS BELOW
 
 # In[ ]:
 
@@ -162,6 +176,24 @@ new_image= ImageTk.PhotoImage(resized_image)
 canvas.create_image(20,20, anchor=NW, image=new_image)
 
 win.mainloop()
+
+
+# In[ ]:
+
+
+from tkinter import *
+from ttkbootstrap.constants import *
+import ttkbootstrap as tb
+
+root = tb.Window(themename = "superhero")
+
+root.title("TTK Bootstrap")
+
+my_label = tb.Label(text = "Hello World!" , font = ("Helvetica" , 20), bootstyle = "default" )
+my_label.pack(pady = 50)
+root.geometry('500x350')
+
+root.mainloop()
 
 
 # In[ ]:
