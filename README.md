@@ -7,7 +7,7 @@ In this project, we created a python application that provides geologists with c
 Project Challenge Description: 
 https://www.spaceappschallenge.org/2023/challenges/be-a-space-geologist/
 
-Team Members: Sarah, Anam, Samreeena, Amna, Haniya and Kai
+Team Members: Sarah, Anam, Samreena, Amna, Haniya and Kai
 
 
 </p>
